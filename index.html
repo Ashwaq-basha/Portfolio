@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashwaq's Portfolio website</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/Body.2.00.JPG">
+    <script src="https://kit.fontawesome.com/e29bf25393.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/jpg" href="/images/Body2.00.JPG">
+</head>
+
+<body>
+    <div id="header">
+        <div class="img" id="img1"><img src="images/sample.jpeg" alt=""></div>
+        <div class="container">
+            <nav>
+                <h1 class="name"> Ashwaq <span> Basha</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <li><a href="#services" onclick="closemenu()">Service</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'am <span>Ashwaq Basha</span></h1><br>
+                <p>Python/Django Developer</p><br>
+                <p style="font-size: 15px; line-height:1.5rem;">Highly motivated BCA graduate with a strong passion for web development. Seeking a position as a Web Developer to leverage skills in Python, HTML, CSS, JavaScript, and Django. Committed to delivering exceptional results, collaborating effectively, and continuously learning to contribute to the growth and success of your organization.
+                    presence or an employer looking to hire, you can get in touch with me.
+                </p>
+                <a href="images/AshwaqBasha_resume..pdf"> <input type="button" class="btn btn2" value="Download CV"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/mypic.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" style="margin-bottom:1rem;">About Me</h1>
+                    <ul style="font-size: 15px; line-height:1.5rem; margin-top: 5px; margin-left: 0.7rem;">
+                         <li> Self-motivated software developer with strong
+                           understanding of web development principles. </li>
+
+                         <li> Proficient in Python, Django, CSS, HTML, JavaScript,
+                           Bootstrap, and SQL. </li>
+
+                         <li> Built Web application using Python, Django, RESTful
+                           APIs, Django ORM, SQLITE3 etc. </li>
+
+                        <li> Good knowledge of Web Services and API's in python
+                           and maintaining version control system such as GIT. </li>
+
+                         <li> Strong problem-solving and analytical skills, as well as
+                           a passion for learning and improving my professional
+                           skills with a view to contributing towards the growth of
+                           the company. </li>
+                    </ul>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active" onclick="show('skills')">Skills</p>
+                        <p class="tab-links" onclick="show('education')">Education</p>
+                        <p class="tab-links active" onclick="show('prof_course')">Professional course</p>
+                        <p class="tab-links" onclick="show('projects')">Certificates</p>
+                    </div>
+                    <div class="tab-contents active" id="skills">
+                        <ul>
+                            <li><span>Back-End Development</span>
+                                <p class="clg1">Python and Django Framework</p>
+                            </li>
+                            <li><span>Front-End Development</span>
+                                <p class="clg1">HTML, CSS, Javascript and Bootstrap</p>
+                            </li>
+                            <li><span>Programming Languages</span>
+                                <p class="clg1">Python</p>
+                            </li>
+                            <li><span>Database</span>
+                                <p class="clg1">SQL Server</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Python</span><br> •	Certification by IBM for completing “Python for Web Development“.<br>Tap to Know <a href="https://courses.itvedant.skillsnetwork.site/certificates/5b2d51a146b24940be8c7dc38783c8ba">More!</a>
+                            </li>
+
+                            <li><span>Web Desiging</span><br> •	Certification by IBM for completing “Web Development using HTML“.
+                                <br>Tap to Know <a href="https://courses.itvedant.skillsnetwork.site/certificates/8d795fad36204d94b83fe0b69a7241a0">More!</a>
+                            </li>
+
+                            <li><span>Python</span><br>•	Certification by Itvedant for completing “Python Development Essentials“.</a>
+                            </li>
+
+                            <li><span>AWS</span><br>•	Certificate by Itvedant for completing “AWS Cloud Practitioner (AWS C2I)”.</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2022</span><br>
+                                <p class="clg">SSMRV COLLEGE</p>Bachelor of Computer Application
+                            </li>
+                            <!-- <li><span>2018-2019</span><br>
+                                <p class="clg">SSMRV PU COLLEGE</p> PUC (SEBA)
+                            </li>
+                            <li><span>2016-2017</span><br>
+                                <p class="clg">MOTHERLAND ENGLISH HIGH SCHOOL</p> SSLC
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="prof_course">
+                        <ul>
+                            <li><span>2022</span><br>
+                                <p class="clg">I.T.Vedant Education Pvt Ltd </p>MASTERS IN FULL STACK DEVELOPMENT WITH AWS.
+                            </li>
+                           
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Front End <br>Web Developer</h2>
+                </div>
+                <div>
+                    <i class="fa-solid fa-server"></i>
+                    <h2>Back End <br>Web Developer</h2>
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Full Stack <br>Web Developer</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images//about (2).png" alt="">
+                    <div class="layer">
+                        <h3>ONLINE CAR RENTALS</h3>
+                        <p> Created a car rental website that offers a user-friendly interface for customers to browse and book a variety of vehicles. The platform provides a seamless booking experience and enhances convenience in reserving cars for travel purposes.</p>
+                        <a href="https://github.com/Ashwaq-basha/car_rentals.git"><i
+                                class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/socialmedia.jpg" alt="">
+                    <div class="layer">
+                        <h3>SOCIAL MEDIA WEBSITE</h3>
+                        <p>Designed and implemented a feature-rich social media website using Django, allowing users to upload photos, interact by liking photos, and establish connections through the follow functionality, providing an engaging and seamless user experience
+                        </p>
+                        <a href="https://github.com/Ashwaq-basha/photos-managemet.git"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio.jpg" style="background-color: white;">
+                    <div class="layer">
+                        <h3>Personal Protfolio Website</h3>
+                        <p>This website is build to
+                            displays the professional background of an
+                            individual. It displays brief information about work experiences, education,
+                            skills and contact details along with social media links.</p>
+                        <a href=""><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <section class="footer" id="contact">
+
+        <div class="box-container">
+  
+           <div class="box">
+              <h3>quick links</h3>
+              <a class="link" href="#"> <i class="fas fa-angle-right"></i> Home</a>
+              <a class="link" href="#about"> <i class="fas fa-angle-right"></i> About</a>
+              <a class="link" href="#services"> <i class="fas fa-angle-right"></i> Services</a>
+              <a class="link" href="#portfolio"> <i class="fas fa-angle-right"></i> Projects</a>
+           </div>
+  
+           <div class="box">
+              <h3>contact info</h3>
+              <a href="tel:7406223816" class="link"> <i class="fas fa-phone"></i> +91 -7406223816 </a>
+              <a href="tel:7406223816" class="link"> <i class="fas fa-phone"></i> +91 - 7406223816</a>
+              <a href="mailto:c.ashwaqbasha@gmail.com" class="link"> <i class="fas fa-envelope"></i>c.ashwaqbasha@gmail.com </a>
+              <a href="#" class="link"> <i class="fas fa-map"></i> anepalya 1 st cross, Bangalore </a>
+           </div>
+  
+           <div class="box">
+              <h3>Social Links</h3>
+                <a href="https://github.com/Ashwaq-basha" class="link"><i class="fa-brands fa-github"> </i><span>  GitHub Link</span></a>
+                <a href="https://www.linkedin.com/in/ashwaq-basha-034645239/" class="link"><i
+                        class="fa-brands fa-linkedin"> </i><span>  Linkedin Link</span></a>
+                <a href="whatsapp://send?phone=+917406223816" class="link"><i class="fa-brands fa-whatsapp"> </i><span>  WhatsApp Link</span></a>
+                <a href="" class="link"><i
+                        class="fa-brands fa-instagram"> </i><span>  Instagram Link</span></a>
+           </div>
+        </div>
+    
+     </section>
+        <div class="copyright">
+            <p>@Ashwaq basha. All Rights Reserved</p>
+        </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function show(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active");
+            }
+            event.currentTarget.classList.add("active");
+            document.getElementById(tabname).classList.add("active");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0px";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
